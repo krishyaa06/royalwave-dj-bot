@@ -1,0 +1,38 @@
+{
+  "name": "royalwave-dj-bot",
+  "version": "2.0.0",
+  "description": "RoyalWave DJ: A luxury-styled Discord DJ bot with a refined queue (move, jump, remove, shuffle), DJ role permissions, lounge and jazz radio, and a live web dashboard.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "check": "node scripts/check.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "music-bot",
+    "discord.js",
+    "premium",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "play-dl": "^1.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishyaa06/royalwave-dj-bot.git"
+  }
+}
